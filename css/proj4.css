@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    min-width: 1000px;
+    color: #945151;
+}
+
+p {
+    margin : 10px 25px 10px 25px;
+    text-indent: 40px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    padding : 10px 0px;
+    
+}
+h3 {
+    text-align: center;
+    padding : 10px 0px;
+}
+#navigation {
+    padding: 5px 30px;
+}
+    
+.clear_it {
+    clear: both;
+    }
+#navigation-left {
+    text-align: left;
+    display: inline;
+    font-size: 40px;
+    color: #945151;
+
+}
+span{
+    color: #945151;
+}
+#navigation-left .brand {
+    padding-right: 20px;
+    font-style: italic;
+    color: #945151;
+}
+
+ #navigation-right ul {
+    text-align: right;
+    text-decoration: none;
+ }
+ #navigation-right li {
+    display: inline;
+
+}
+#navigation-right a{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    color:  #945151;
+    } 
+#navigation-right a:hover {
+    color:  white;
+    background-color: #945151;
+}
+#navigation-right a:active {
+    color: #A7A68C;
+}
+#chocolate {
+    float: left;
+    position: relative;
+    top: 0;
+    right: 45px;
+    width: 200px;
+}
+#main_content {
+    padding: 20px 50px 50px 50px;
+    margin: 40px;
+    border: 2px double #945151;
+    background-color: white;
+}
+#main_content #button_panel input {
+    font-size: 90%;
+    color: #945151;
+}
+hr{
+    color: #945151;
+}
+#main {
+    background-color: #faf6f4 !important;
+    background-image: none;
+    padding: 15px;
+    } 
+    
+#cart table {
+    margin-left: auto;
+    margin-right: auto;
+    }    
+    
+#cart th, td {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    }
+   
+#counter {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: normal;
+    font-size: 80%;
+    }    
+    #content p#price{
+        text-align: center;
+        color: #945151;
+        font-size: 110%;
+    }
+    #content  p#title {
+        
+        color: #945151;
+    }
+    span.cart {
+        display: none;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+ #product {
+    text-align: center;
+    }
+    #product #shop{
+        
+        background-color: #945151;
+        
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+    }

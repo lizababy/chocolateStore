@@ -1,0 +1,11 @@
+use jadrn007;
+
+drop table if exists sale;
+
+create table sale(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    sku varchar(25) NOT NULL,
+    quantity int NOT NULL,
+    orderdate date NOT NULL
+    );    
+  
